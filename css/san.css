@@ -1,0 +1,382 @@
+@import url('reset.css');
+.full {
+  width: 100%;
+  height: 100%;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.header {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  background: #f5f5f5;
+  margin: 0 auto;
+}
+.header .mheader {
+  width: 1016px;
+  margin: 0 auto;
+}
+.header .mheader .a1 {
+  width: 70px;
+  background: url(../images/2_33.png) no-repeat right center;
+  padding-right: 21px;
+  margin-left: 22px;
+  float: left;
+}
+.header .mheader ul {
+  float: right;
+}
+.header .mheader ul li {
+  float: left;
+  padding-left: 11px;
+  padding-right: 15px;
+  background: url(../images/images/2轮播图和楼层_003_06.png) no-repeat right center;
+}
+.header .mheader ul li .a2 {
+  background: url(../images/2_33.png) no-repeat right;
+  padding-right: 12px;
+}
+.header .mheader ul li .a3 {
+  background: url(../images/images/2轮播图和楼层_003_03.png) no-repeat left;
+  padding-left: 15px;
+}
+.wei {
+  width: 1016px;
+  height: 100px;
+  margin: 0 auto;
+}
+.wei .weil {
+  width: 440px;
+  height: 100px;
+  float: left;
+}
+.wei ul {
+  float: right;
+  width: 550px;
+  height: 100px;
+  line-height: 100px;
+}
+.wei ul li {
+  float: left;
+  margin-right: 25px;
+}
+.wei ul .li1 {
+  background: url(../images/2_06.png) no-repeat left center;
+  padding-left: 45px;
+}
+.wei ul .li2 {
+  background: url(../images/2_08.png) no-repeat left center;
+  padding-left: 45px;
+}
+.wei ul .li3 {
+  background: url(../images/2_10.png) no-repeat left center;
+  padding-left: 45px;
+}
+.wei ul .li4 {
+  background: url(../images/2轮播图和楼层_13.png) no-repeat left center;
+  padding-left: 45px;
+  margin-left: 30px;
+}
+.shou {
+  width: 100%;
+  height: 40px;
+  background: #f10180;
+}
+.shou .shou1 {
+  width: 1016px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.shou .shou1 ul {
+  width: 700px;
+  float: left;
+}
+.shou .shou1 ul li {
+  float: left;
+}
+.shou .shou1 ul li a {
+  display: block;
+  font-size: 16px;
+  color: white;
+  padding: 0 14px;
+}
+.shou .shou1 ul li a:hover {
+  display: block;
+  height: 40px;
+  background: #bd1067;
+}
+.shou .shou1 ul li .aduo {
+  background: url(../images/2轮播图和楼层_29.png) no-repeat right center;
+  padding-right: 12px;
+}
+.shou .shou1 span {
+  width: 160px;
+  float: right;
+}
+.shou .shou1 span a {
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+}
+.shou .shou1 span .fen {
+  background: url(../images/2轮播图和楼层_26.png) no-repeat left center;
+  padding-left: 25px;
+  padding-right: 14px;
+}
+.shou .shou1 span .yu {
+  background: url(../images/2轮播图和楼层_23.png) no-repeat left center;
+  padding-left: 25px;
+  margin-left: 14px;
+}
+.main {
+  width: 100%;
+  height: 2190px;
+  background: #dfaf0d;
+  position: relative;
+}
+.main .biao {
+  width: 100%;
+  height: 50px;
+  background: white;
+}
+.main .biao .biao1 {
+  width: 1016px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+.main .biao .biao1 span {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #871f48;
+  padding-right: 10px;
+}
+.main .ou {
+  width: 100%;
+  height: 2028px;
+}
+.main .ou .ou1 {
+  width: 1205px;
+  height: 615px;
+}
+.main .ou .ou1 img {
+  width: 1205px;
+  height: 615px;
+  margin-left: 140px;
+}
+.main .ou .ou2 {
+  width: 1016px;
+  height: 487px;
+  margin: 0 auto;
+}
+.main .ou .ou2 .ou22 {
+  width: 960px;
+  height: 490px;
+  background: white;
+  margin: 0 auto;
+}
+.main .ou .ou2 .ou22 dl {
+  width: 361px;
+  height: 187px;
+  border-right: 1px solid #a56e13;
+  border-bottom: 1px solid #a56e13;
+  padding-top: 30px;
+  padding-left: 61px;
+  padding-right: 57px;
+  padding-bottom: 28px;
+  float: left;
+}
+.main .ou .ou2 .ou22 dl dt {
+  width: 120px;
+  height: 187px;
+  float: left;
+  margin-right: 30px;
+}
+.main .ou .ou2 .ou22 dl .d1 {
+  color: #000000;
+  font-size: 22px;
+}
+.main .ou .ou2 .ou22 dl .d2 {
+  color: #000000;
+}
+.main .ou .ou2 .ou22 dl .d3 {
+  margin-top: 23px;
+}
+.main .ou .ou2 .ou22 dl .d4 {
+  color: #a56e13;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main .ou .ou2 .ou22 dl .d4 span {
+  color: black;
+  font-size: 12px;
+  margin-left: 5px;
+  text-decoration: line-through;
+}
+.main .ou .ou2 .ou22 dl .d5 {
+  width: 210px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: #a56e13;
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+  border-radius: 5%;
+  margin-top: 10px;
+}
+.main .ou .ou2 .ou22 dl .d5:hover {
+  background: #f10180;
+  color: white;
+}
+.main .ou .ou3 {
+  width: 430px;
+  height: 156px;
+  margin: 0 auto;
+}
+.main .ou .ou4 {
+  width: 960px;
+  height: 820px;
+  margin: 0 auto;
+}
+.main .ou .ou4 .ou44 {
+  width: 960px;
+  height: 820px;
+}
+.main .ou .ou4 .ou44 dl {
+  width: 222px;
+  height: 408px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: white;
+}
+.main .ou .ou4 .ou44 dl dt {
+  width: 222px;
+  height: 304px;
+}
+.main .ou .ou4 .ou44 dl dt img {
+  width: 222px;
+  height: 304px;
+}
+.main .ou .ou4 .ou44 dl .img0 {
+  width: 222px;
+  height: 304px;
+  position: relative;
+}
+.main .ou .ou4 .ou44 dl .img0 .img1 {
+  width: 222px;
+  height: 24px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.main .ou .ou4 .ou44 dl .d1 {
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.main .ou .ou4 .ou44 dl .d1 .d1l {
+  width: 128px;
+  height: 30px;
+  float: left;
+}
+.main .ou .ou4 .ou44 dl .d1 .d1l .nv {
+  color: #363636;
+}
+.main .ou .ou4 .ou44 dl .d1 .d1l .cang {
+  color: #ababab;
+}
+.main .ou .ou4 .ou44 dl .d1 .d1l .cang .s3 {
+  color: #a02657;
+}
+.main .ou .ou4 .ou44 dl .d1 .d1r {
+  color: #ababab;
+  float: right;
+}
+.main .ou .ou4 .ou44 dl .d1 .d1r .s4 {
+  color: #a02657;
+  font-size: 30px;
+}
+.main .ou .ou4 .ou44 dl .d2 {
+  width: 200px;
+  height: 25px;
+  border: 1px solid #d7cad1;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 25px;
+  color: #b2456c;
+}
+.main .ou .ou4 .ou44 dl .d2:hover {
+  background: #f10180;
+  color: white;
+}
+.main .ou .ou4 .ou44 .dl1 {
+  margin-left: 0;
+}
+.main .ou .ou4 .ou44 .dl2 {
+  margin-right: 0;
+}
+.main .ding {
+  width: 142px;
+  height: 585px;
+  background: #001638;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.main .ding .dingt {
+  width: 142px;
+  height: 120px;
+}
+.main .ding .dingb {
+  background: #082c64;
+  border: 2px solid #001638;
+}
+.main .ding .dingb li {
+  width: 130px;
+  height: 43px;
+  line-height: 43px;
+  margin: 0 auto;
+  border-top: 2px solid #001638;
+  margin-top: 2px;
+  color: white;
+  text-align: center;
+  background: url(../img1/images/333二级下拉_07.png) no-repeat right center;
+  position: relative;
+}
+.main .ding .dingb li ul {
+  display: none;
+}
+.main .ding .dingb li:hover ul {
+  width: 300px;
+  height: 200px;
+  background: #082c64;
+  display: block;
+  position: absolute;
+  right: -305px;
+}
+.main .ding .dingb li:hover ul li {
+  width: 300px;
+  height: 43px;
+  border: none;
+  background: none;
+}
+.main .ding .dingb li:hover ul li a {
+  color: white;
+  margin-right: 20px;
+}

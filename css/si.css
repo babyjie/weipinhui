@@ -1,0 +1,494 @@
+@import url('reset.css');
+.full {
+  width: 100%;
+  height: 100%;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+.header {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  background: #f5f5f5;
+  margin: 0 auto;
+}
+.header .mheader {
+  width: 1016px;
+  margin: 0 auto;
+}
+.header .mheader .a1 {
+  width: 70px;
+  background: url(../images/2_33.png) no-repeat right center;
+  padding-right: 21px;
+  margin-left: 22px;
+  float: left;
+}
+.header .mheader ul {
+  float: right;
+}
+.header .mheader ul li {
+  float: left;
+  padding-left: 11px;
+  padding-right: 15px;
+  background: url(../images/images/2轮播图和楼层_003_06.png) no-repeat right center;
+}
+.header .mheader ul li .a2 {
+  background: url(../images/2_33.png) no-repeat right;
+  padding-right: 12px;
+}
+.header .mheader ul li .a3 {
+  background: url(../images/images/2轮播图和楼层_003_03.png) no-repeat left;
+  padding-left: 15px;
+}
+.wei {
+  width: 1016px;
+  height: 100px;
+  margin: 0 auto;
+}
+.wei .weil {
+  width: 440px;
+  height: 100px;
+  float: left;
+}
+.wei ul {
+  float: right;
+  width: 550px;
+  height: 100px;
+  line-height: 100px;
+}
+.wei ul li {
+  float: left;
+  margin-right: 25px;
+}
+.wei ul .li1 {
+  background: url(../images/2_06.png) no-repeat left center;
+  padding-left: 45px;
+}
+.wei ul .li2 {
+  background: url(../images/2_08.png) no-repeat left center;
+  padding-left: 45px;
+}
+.wei ul .li3 {
+  background: url(../images/2_10.png) no-repeat left center;
+  padding-left: 45px;
+}
+.wei ul .li4 {
+  background: url(../images/2轮播图和楼层_13.png) no-repeat left center;
+  padding-left: 45px;
+  margin-left: 30px;
+}
+.shou {
+  width: 100%;
+  height: 40px;
+  background: #f10180;
+}
+.shou .shou1 {
+  width: 1016px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.shou .shou1 ul {
+  width: 700px;
+  float: left;
+}
+.shou .shou1 ul li {
+  float: left;
+}
+.shou .shou1 ul li a {
+  display: block;
+  font-size: 16px;
+  color: white;
+  padding: 0 14px;
+}
+.shou .shou1 ul li a:hover {
+  display: block;
+  height: 40px;
+  background: #bd1067;
+}
+.shou .shou1 ul li .aduo {
+  background: url(../images/2轮播图和楼层_29.png) no-repeat right center;
+  padding-right: 12px;
+}
+.shou .shou1 span {
+  width: 160px;
+  float: right;
+}
+.shou .shou1 span a {
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+}
+.shou .shou1 span .fen {
+  background: url(../images/2轮播图和楼层_26.png) no-repeat left center;
+  padding-left: 25px;
+  padding-right: 14px;
+}
+.shou .shou1 span .yu {
+  background: url(../images/2轮播图和楼层_23.png) no-repeat left center;
+  padding-left: 25px;
+  margin-left: 14px;
+}
+.main {
+  width: 1016px;
+  height: 1336px;
+  margin: 0 auto;
+}
+.main p {
+  width: 600px;
+  height: 40px;
+  line-height: 40px;
+  color: #333333;
+}
+.main .tu {
+  width: 1016px;
+  height: 660px;
+}
+.main .tu .tul {
+  width: 433px;
+  height: 660px;
+  float: left;
+  position: relative;
+}
+.main .tu .tul .big {
+  width: 433px;
+  height: 530px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.main .tu .tul .big .bigdiv {
+  width: 433px;
+  height: 530px;
+  display: none;
+}
+.main .tu .tul .big .bigdiv img {
+  width: 430px;
+  height: 530px;
+}
+.main .tu .tul .big .floatdiv {
+  width: 216px;
+  height: 265px;
+  opacity: 0.5;
+  background: grey;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.main .tu .tul .big1 {
+  width: 433px;
+  height: 530px;
+  margin-bottom: 5px;
+  position: absolute;
+  left: 450px;
+  top: 0;
+  overflow: hidden;
+  display: none;
+}
+.main .tu .tul .big1 ul {
+  width: 433px;
+  height: 530px;
+}
+.main .tu .tul .big1 .big1div {
+  width: 433px;
+  height: 530px;
+  display: none;
+}
+.main .tu .tul .big1 .big1div img {
+  width: 866px;
+  height: 1060px;
+  position: absolute;
+}
+.main .tu .tul .small {
+  width: 433px;
+  height: 75px;
+}
+.main .tu .tul .small .smalldiv {
+  width: 62px;
+  height: 73px;
+  border: 1px solid #f2f2f2;
+  margin-right: 10px;
+  float: left;
+}
+.main .tu .tul .small .smalldiv img {
+  width: 62px;
+  height: 73px;
+}
+.main .tu .tul p {
+  width: 433px;
+  height: 24px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.main .tu .tul p .a2 {
+  background: url(../img1/images/images/images/images/放大镜_30.png) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.main .tu .tul p .a3 {
+  width: 68px;
+  height: 22px;
+  border: 1px solid #c2c2c2;
+  display: inline-block;
+  background: #fafafa;
+  float: right;
+  padding-left: 25px;
+}
+.main .tu .tul p .a3 img {
+  margin-bottom: 3px;
+}
+.main .tu .tur {
+  width: 555px;
+  height: 660px;
+  float: right;
+}
+.main .tu .tur .p1 {
+  width: 555px;
+  height: 20px;
+  line-height: 20px;
+  color: #77798d;
+}
+.main .tu .tur .p2 {
+  width: 555px;
+  height: 26px;
+  line-height: 26px;
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+}
+.main .tu .tur .man {
+  width: 550px;
+  height: 90px;
+  background: #faf5f8;
+  padding-top: 18px;
+}
+.main .tu .tur .man dl {
+  width: 170px;
+  height: 50px;
+  margin-left: 16px;
+}
+.main .tu .tur .man dl dt {
+  color: #f43499;
+  font-size: 34px;
+  float: left;
+  margin-right: 10px;
+}
+.main .tu .tur .man dl dd {
+  float: left;
+}
+.main .tu .tur .man dl .dd1 {
+  width: 39px;
+  height: 16px;
+  border: 1px solid #f43499;
+  font-size: 12px;
+  color: #f43499;
+  margin-top: 10px;
+  text-align: center;
+}
+.main .tu .tur .man dl .dd2 {
+  color: #666666;
+  text-decoration: line-through;
+}
+.main .tu .tur .man .p3 {
+  width: 550px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 16px;
+  float: left;
+}
+.main .tu .tur .man .p3 span {
+  width: 62px;
+  height: 18px;
+  background: #f3b241;
+  display: inline-block;
+  color: white;
+  line-height: 18px;
+  text-align: center;
+  margin-right: 5px;
+}
+.main .tu .tur .p4 {
+  width: 550px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 18px;
+  color: #666666;
+}
+.main .tu .tur .p4 span {
+  width: 40px;
+  height: 20px;
+  background: #f3b241;
+  display: inline-block;
+  color: white;
+  margin-left: 16px;
+  margin-right: 8px;
+}
+.main .tu .tur .p5 {
+  width: 550px;
+  height: 35px;
+  color: #666666;
+}
+.main .tu .tur .p5 span {
+  width: 77px;
+  height: 28px;
+  line-height: 28px;
+  margin-left: 15px;
+}
+.main .tu .tur .p5 span button {
+  width: 23px;
+  height: 28px;
+}
+.main .tu .tur .p5 span input {
+  width: 25px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+.main .tu .tur .jia {
+  width: 198px;
+  height: 46px;
+  background: #f10180;
+  display: block;
+  color: white;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.main .tu .tur .jia img {
+  margin-right: 15px;
+}
+.main .tu .tur .p6 {
+  width: 176px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 40px;
+  margin-top: 15px;
+  background: url(../img1/images/images/images/images/放大镜_11.png) no-repeat right center;
+}
+.main .tu .tur .p6 span {
+  color: #f10180;
+}
+.main .tu .tur .p7 {
+  width: 555px;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px dashed #e6e6e6;
+  margin-top: 176px;
+  color: #666666;
+  background: url(../img1/images/images/images/images/放大镜_19.png) no-repeat 270px center;
+}
+.main .tu .tur .p7 span {
+  width: 25px;
+  height: 40px;
+  color: #999999;
+  display: inline-block;
+  margin-right: 10px;
+}
+.main .tu .tur .p8 {
+  width: 555px;
+  height: 36px;
+  line-height: 36px;
+  color: #bcb7ba;
+}
+.main .tu .tur .p8 .ps1 {
+  display: inline-block;
+  background: url(../img1/images/images/images/images/放大镜_23.png) no-repeat left center;
+  padding-left: 48px;
+  padding-right: 35px;
+}
+.main .tu .tur .p8 .ps2 {
+  display: inline-block;
+  background: url(../img1/images/images/images/images/放大镜_26.png) no-repeat left center;
+  padding-left: 35px;
+}
+.main .qiang {
+  width: 1016px;
+  height: 82px;
+}
+.main .men {
+  width: 1016px;
+  height: 35px;
+  border: 1px solid #e7e7e7;
+  border-bottom: 3px solid #000000;
+  margin-top: 30px;
+}
+.main .men a {
+  width: 87px;
+  height: 35px;
+  display: inline-block;
+  line-height: 35px;
+  text-align: center;
+  border-right: 1px solid #e7e7e7;
+  color: #333333;
+}
+.main .shu {
+  width: 1016px;
+  height: 30px;
+  line-height: 30px;
+  color: #f10180;
+  font-size: 20px;
+  background: url(../img1/images/images/images/images/放大镜1111_03.png) no-repeat left center;
+  margin-top: 26px;
+  padding-left: 20px;
+}
+.main .shu span {
+  color: #999999;
+  margin-left: 10px;
+}
+.main .p9 {
+  width: 1016px;
+  height: 5px;
+  background: url(../img1/images/images/images/images/放大镜1111_06.png);
+  margin-bottom: 20px;
+}
+.main .pin {
+  width: 508px;
+  height: 376px;
+  float: left;
+}
+.main .pin .pinl {
+  width: 90px;
+  height: 376px;
+  background: #f5f5f5;
+  float: left;
+}
+.main .pin .pinl ul li {
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #666666;
+  font-weight: bold;
+}
+.main .pin .pinr {
+  width: 415px;
+  height: 376px;
+  border: 1px solid #ededed;
+  float: left;
+}
+.main .pin .pinr li {
+  width: 415px;
+  height: 41px;
+  line-height: 41px;
+  color: #999999;
+  border-bottom: 1px solid #ededed;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.kua {
+  width: 120px;
+  height: 195px;
+  position: absolute;
+  top: 185px;
+  left: 37px;
+}
